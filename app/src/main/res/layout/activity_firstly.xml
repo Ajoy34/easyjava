@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/two_color"
+    tools:context=".Firstly">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:orientation="horizontal"
+               >
+
+               <com.airbnb.lottie.LottieAnimationView
+                   android:id="@+id/t1"
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   app:lottie_rawRes="@raw/greeting"
+                   app:lottie_autoPlay="true"
+                   app:lottie_loop="true"/>
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:text="what is java and first java program:"
+                   android:textSize="30dp"
+                   android:textStyle="italic"
+               />
+
+
+           </LinearLayout>
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:text="JAVA:"
+               android:textStyle="italic"
+               android:textSize="40dp"
+
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub,particularly for client–server web applications, with a reported 9 million developers."
+               android:textSize="22dp"
+               android:textStyle="bold"
+               />
+
+
+           <TextView
+
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:text="There were five primary goals in the creation of the Java language:
+
+It must be simple, object-oriented, and familiar.
+It must be robust and secure.
+It must be architecture-neutral and portable.
+It must execute with high performance.
+It must be interpreted, threaded, and dynamic."
+               android:textSize="22dp"
+               android:textStyle="bold" />
+
+           <TextView
+
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:text="Features of Java
+1) Simple. Java is easy to learn and its syntax is quite simple, clean and easy to understand
+2) Object Oriented. In java, everything is an object which has some data and behaviour
+3) Robust
+4) Platform Independent
+5) Secure
+6) Multi Threading
+7) Architectural Neutral
+8) Portable"
+               android:textSize="22dp"
+               android:textStyle="bold"
+               />
+
+
+           <TextView
+
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Java is platform independent. Because the Java compiler converts the source code to bytecode, which is Intermidiate Language. Bytecode can be executed on any platform (OS) using JVM( Java Virtual Machine). ... Platform independent language means once compiled you can execute the program on any platform (OS)."
+               android:textSize="22dp"
+               android:textStyle="bold"
+               />
+
+
+
+
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:src="@drawable/java1"
+               />
+
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="20dp"
+           android:layout_marginTop="10dp"
+           android:text="First Java Program"
+           />
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:src="@drawable/java2"
+           android:layout_marginTop="2dp"
+           />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:src="@drawable/java4"
+           android:layout_marginTop="2dp"
+           />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:src="@drawable/java3"
+           android:layout_marginTop="2dp"
+           />
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>
